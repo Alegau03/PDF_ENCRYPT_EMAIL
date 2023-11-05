@@ -1,7 +1,7 @@
 # PDF_ENCRYPT_EMAIL
-########################################
+
 For the script to work, create a folder in the main folder called "Encrypted"
-########################################
+
 
 The provided code is a Python program that performs the following actions:
 
