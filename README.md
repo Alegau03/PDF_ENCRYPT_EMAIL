@@ -1,8 +1,5 @@
 # PDF_ENCRYPT_EMAIL
 
-For the script to work, create a folder in the main folder called "Encrypted"
-
-
 ## 1. Text Extractor from PDF with Encryption and Emailing
 This program is designed to automate the process of extracting text from PDF files, encrypting the extracted PDF files and emailing them to users, all in an efficient manner.
 
@@ -29,7 +26,9 @@ The user interface allows the user to enter this information before starting the
 A "requirements.txt" file is included in the source code to list all the libraries needed to run the program. You can install them all by running pip install -r requirements.txt.
 The program is designed to simplify the process of sharing medical reports or any type of PDF with users, while ensuring data security by encrypting PDFs.
 
+The program is written in Italian because it is designed for personal use, if anyone would like a translation please do not hesitate to contact me
 
+For the script to work, create a folder in the main folder called "Encrypted"
 
 _WARNING 
 This program is made available for demonstration and educational purposes only. Anyone who decides to use it does so at his or her own risk, assuming full responsibility for any consequences arising from the use of the program. Please note that the program is very basic and does not guarantee any data security. Any changes or updates to the Python libraries used could cause malfunctions or loss of data. The author of the program is not responsible for any damage or loss of data caused by the use of the program._
