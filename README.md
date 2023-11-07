@@ -26,6 +26,7 @@ The user interface allows the user to enter this information before starting the
 A "requirements.txt" file is included in the source code to list all the libraries needed to run the program. You can install them all by running pip install -r requirements.txt.
 The program is designed to simplify the process of sharing medical reports or any type of PDF with users, while ensuring data security by encrypting PDFs.
 
+### Endnotes
 The program is written in Italian because it is designed for personal use, if anyone would like a translation please do not hesitate to contact me
 
 For the script to work, create a folder in the main folder called "Encrypted"
