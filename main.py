@@ -116,21 +116,9 @@ def main():
         if email_tmp is None:
             continue
 
-        oggetto = "INVIO REFERTO - Fisiogym"
+        oggetto = "your email object "
         contenuto = """
-                        <html>
-                        <head></head>
-                        <body>
-                        <img src='https://imgur.com/a/3Kpmnwp' alt="Logo" width="200"><br>
-                        <p style="font-size: 20px; font-weight: bold;">Fisiogym Referti Online</p>
-                        <p style="font-size: 12px;">Buonasera, il centro medico Fisiogym augurandole una buona giornata le invia il referto dell'esame effettuato presso la nostra struttura.</p>
-                        <p style="font-size: 12px;"><strong>ATTENZIONE il pdf è protetto da password!</strong></p>
-                        <p style="font-size: 12px;">La password è il tuo codice fiscale scritto in minuscolo.</p>
-
-                        <br><br>
-                        <em style="font-size: 14px; font-family: 'Courier New', monospace;">Centro Medico Diagnostico Fisiogym</em>
-                        </body>
-                        </html>
+              your email body
                     """
         allegato = os.path.join(cartella, file)
         yag.send(to=email_tmp, subject=oggetto, contents=contenuto, attachments=allegato)
